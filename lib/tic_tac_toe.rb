@@ -44,4 +44,5 @@ class TicTacToe
       if occ == "O" || occ == "X" ? count += 1 : false
     end
     count
+  end
 end
