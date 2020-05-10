@@ -24,4 +24,6 @@ class TicTacToe
     index
   end
   
+  def move
+  
 end
