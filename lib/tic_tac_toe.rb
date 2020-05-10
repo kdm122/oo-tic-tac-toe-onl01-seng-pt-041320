@@ -24,6 +24,8 @@ class TicTacToe
     index
   end
   
-  def move
+  def move(index, token)
+    
+  end
   
 end
