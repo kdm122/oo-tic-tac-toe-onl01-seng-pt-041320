@@ -50,7 +50,7 @@ class TicTacToe
     self.turn_count.even? ? "X" : "O"
   end
   
-  def turn 
+  def turn
     
   end
 end
