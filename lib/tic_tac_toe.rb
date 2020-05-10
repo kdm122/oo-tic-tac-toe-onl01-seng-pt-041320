@@ -37,4 +37,11 @@ class TicTacToe
    def valid_move?(index)
      @board[index] == "X" || @board[index] == "O" || index > 9 ? false : true
   end
+  
+  def turn_count
+    count = 0
+    @board.each do |occ|
+      if occ == "O" || occ == "X" ? count += 1
+    end
+    count
 end
