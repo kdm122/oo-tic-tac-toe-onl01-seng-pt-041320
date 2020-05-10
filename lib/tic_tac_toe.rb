@@ -43,6 +43,6 @@ class TicTacToe
     @board.each do |token|
       if token == "O" || token == "X" ? count += 1 : false
     end
-    return count
+    count
   end
 end
