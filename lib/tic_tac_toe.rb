@@ -43,6 +43,6 @@ class TicTacToe
     @board.each do |occ|
       if occ == "O" || occ == "X" ? count += 1 : false
     end
-    count
+    return count
   end
 end
