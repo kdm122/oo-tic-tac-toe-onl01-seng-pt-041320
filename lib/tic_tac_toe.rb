@@ -30,6 +30,7 @@ class TicTacToe
   
   def position_taken?(selection)
      index = input_to_index(selection)
+     binding.pry
      @board[index] == " " ? false : true
    end
   
