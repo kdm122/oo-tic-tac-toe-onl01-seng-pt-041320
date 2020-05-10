@@ -46,7 +46,7 @@ class TicTacToe
     count
   end
   
-  def current_player(count)
+  def current_player
     odd?(count) ? "X" : "O"
   end
 end
