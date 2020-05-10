@@ -33,5 +33,8 @@ class TicTacToe
    #  binding.pry
      @board[index] == " " ? false : true
    end
+   
+   def valid_move?(index)
+     @board[index] == "X" ||
   
 end
